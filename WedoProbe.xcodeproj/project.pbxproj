@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F9FDA72CD63EC2C831C437B /* WedoProbeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BE8885974FF4776B8ABEAE /* WedoProbeApp.swift */; };
+		925599E2ADB54D9C858F4CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC94B1762203182A64F4B02 /* ContentView.swift */; };
+		989F17EDD8267176A82D4450 /* WedoBleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4952C4259F819A868FAD6F1 /* WedoBleManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DC94B1762203182A64F4B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C776372ADDE42554FEEF6E1 /* WedoProbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WedoProbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4952C4259F819A868FAD6F1 /* WedoBleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedoBleManager.swift; sourceTree = "<group>"; };
+		D1BE8885974FF4776B8ABEAE /* WedoProbeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WedoProbeApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3264381635F4AD4D027B5408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C776372ADDE42554FEEF6E1 /* WedoProbe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591D57242D66EDC0D6D1F48B /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				A4952C4259F819A868FAD6F1 /* WedoBleManager.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		9050CFE7180E89176EB3F547 = {
+			isa = PBXGroup;
+			children = (
+				FAD649D379837F58F702C9E3 /* WedoProbeApp */,
+				3264381635F4AD4D027B5408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8418479F64340345C65816A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6DC94B1762203182A64F4B02 /* ContentView.swift */,
+				D1BE8885974FF4776B8ABEAE /* WedoProbeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAD649D379837F58F702C9E3 /* WedoProbeApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8418479F64340345C65816A /* App */,
+				591D57242D66EDC0D6D1F48B /* BLE */,
+			);
+			path = WedoProbeApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE705E7219E60F5D172CAEA /* WedoProbe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3545C5F77BEDEC9BE5FDF143 /* Build configuration list for PBXNativeTarget "WedoProbe" */;
+			buildPhases = (
+				023F87F36110B51590025484 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WedoProbe;
+			packageProductDependencies = (
+			);
+			productName = WedoProbe;
+			productReference = 9C776372ADDE42554FEEF6E1 /* WedoProbe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD52AAEE301779B2990F7C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1BE705E7219E60F5D172CAEA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D96F3C1D76F7384C3BEEFD25 /* Build configuration list for PBXProject "WedoProbe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9050CFE7180E89176EB3F547;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3264381635F4AD4D027B5408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE705E7219E60F5D172CAEA /* WedoProbe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023F87F36110B51590025484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925599E2ADB54D9C858F4CF8 /* ContentView.swift in Sources */,
+				989F17EDD8267176A82D4450 /* WedoBleManager.swift in Sources */,
+				8F9FDA72CD63EC2C831C437B /* WedoProbeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FBC3F32B2F96E545ED66050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Wedo probe needs Bluetooth access to scan and connect to LEGO WeDo hubs.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Wedo probe needs Bluetooth access to scan and connect to LEGO WeDo hubs.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.italbytz.wedoprobe;
+				PRODUCT_NAME = WedoProbe;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		9F6E8FACE1B576A3CE8C75F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5E8FC308254F98F58AEFF4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCF1958D095E6175D02F7229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Wedo probe needs Bluetooth access to scan and connect to LEGO WeDo hubs.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Wedo probe needs Bluetooth access to scan and connect to LEGO WeDo hubs.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.italbytz.wedoprobe;
+				PRODUCT_NAME = WedoProbe;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3545C5F77BEDEC9BE5FDF143 /* Build configuration list for PBXNativeTarget "WedoProbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF1958D095E6175D02F7229 /* Debug */,
+				3FBC3F32B2F96E545ED66050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D96F3C1D76F7384C3BEEFD25 /* Build configuration list for PBXProject "WedoProbe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E8FC308254F98F58AEFF4F /* Debug */,
+				9F6E8FACE1B576A3CE8C75F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD52AAEE301779B2990F7C03 /* Project object */;
+}

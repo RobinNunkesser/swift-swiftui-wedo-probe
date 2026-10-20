@@ -1,0 +1,22 @@
+name: WedoProbe
+options:
+  bundleIdPrefix: io.italbytz
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  WedoProbe:
+    type: application
+    platform: macOS
+    sources:
+      - path: WedoProbeApp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.italbytz.wedoprobe
+        PRODUCT_NAME: WedoProbe
+        SWIFT_VERSION: "5.10"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription: Wedo probe needs Bluetooth access to scan and connect to LEGO WeDo hubs.
+        INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription: Wedo probe needs Bluetooth access to scan and connect to LEGO WeDo hubs.
+        CODE_SIGN_STYLE: Automatic
+    scheme:
+      testTargets: []
